@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 2rem; 
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #fff;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #764ba2;
+    }
+
+    section {
+      padding: 1rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #764ba2;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .project {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #667eea;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+
+    .resume {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+    }
+    .Internship {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #667eea;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    /* footer {
+      text-align: center;
+      padding: 2rem;
+      background: #333;
+      color: white;
+    } */
+    footer {
+  background: #333;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin: 0.5rem 0;
+}
+
+.footer-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.footer-list a i {
+  margin-right: 0.5rem;
+  color: #00acee; /* Icon color */
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SUJITHA</h1>
+    
+</header>
+
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Sujitha, a B.E. Computer Science and Engineering graduate with a strong passion for learning and innovation. I am eager to embrace challenging opportunities where I can apply my technical skills, grow professionally, and contribute meaningfully to the success of the organization.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Diabetes Prediction System</h3>
+      <p>Developed a Diabetes Prediction System using Machine Learning techniques, leveraging algorithms such as Logistic Regression and Random Forest. The project involved data preprocessing, feature selection, model training, and performance evaluation using Python, along with libraries like Pandas, NumPy, Scikit-learn, and Matplotlib for data analysis and visualization.</p>
+    </div>
+    <div class="project">
+      <h3> UI/UX Flipkart Design </h3>
+      <p>Redesigned the user interface of the Flipkart e-commerce platform as part of a UI/UX project, focusing on enhancing user experience, visual appeal, and navigation flow. The redesign was conceptualized and prototyped using design tools such as Figma and Penpot, incorporating modern design principles, intuitive layouts, and responsive elements to create a more user-friendly shopping experience.</p>
+    </div>
+    
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="resume">
+      <p><strong>Education:</strong> B.E Computer Science and Engineering, CK college of engineering and technology.</p>
+      <p><strong> Programming Skills:</strong> Java,Python,Sql </p>
+      <p><strong>Front-end Skills:</strong> HTML,CSS,UI/UX Designing</p>
+      <p ><a href="_Sujitha N (1).pdf" target="_blank">Download Resume (PDF)</a> </p>
+    </div>
+  </section>
+  <section id="Internship">
+    <h2>Internship</h2>
+    <div class="Internship">
+      <h3>Front-End development</h3>
+      <p> I completed a one-month internship as a Web Developer at Fintek Point Software Services Private Limited, Cuddalore, where I gained valuable hands-on experience in web development.</p>
+    </div>
+    <div class="Internship">
+      <h3>Web Development Using Laravel</h3>
+      <p>Successfully completed a Web Development training program at SK IT Corporate Private Limited, gaining practical knowledge and hands-on experience in building modern web applications.</p>
+    </div>
+    <div class="Internship">
+      <h3>Digital Marketing</h3>
+      <p>I successfully completed a two-month internship specializing in SEO (Search Engine Optimization), where I gained hands-on experience in optimizing website performance and visibility. During this period, I became familiar with key tools such as  Google Search Console,  and SEMrush.</p>
+    </div>
+  
+    <footer>
+      <ul class="footer-list">
+        <li>
+          <a >
+            <i class="fa-regular fa-envelope"></i> sujinagarajan380@gmail.com
+          </a>
+        </li>
+        <li>
+          <a >
+            <i class="fas fa-phone"></i> +91 95976 63713
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sujitha-nagarajan" target="_blank">
+            <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/sujitha-nagarajan
+          </a>
+        </li>
+      </ul>
+    </footer>
+    
+    
+</body>
+</html>
